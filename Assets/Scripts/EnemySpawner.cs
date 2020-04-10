@@ -30,9 +30,9 @@ public class enemyFactory
 }
 public interface enemy
 {
-    public void spawn();
-    public void move();
-    public void attack();
+     void spawn();
+     void move();
+     void attack();
     
 }
 public class basicEnemy : enemy
